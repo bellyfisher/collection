@@ -40,3 +40,12 @@ a.btn {
     height: auto;
     border-radius: 25px;
 }
+
+.card-body-goalie {
+    background-color: #00539B;
+    border-radius: 25px;
+    border-color: #f47d30;
+    padding: 10px;
+    margin: 10px;
+    filter: drop-shadow(6px 6px 6px #f47d30);
+}

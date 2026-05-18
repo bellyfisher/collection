@@ -9,7 +9,7 @@ body {
 
 h1 {
     color: white;
-    filter: drop-shadow(2px 2px 3px #f47d30);
+    filter: drop-shadow(4px 4px 5px #f47d30);
 }
 
 a.btn {
@@ -21,4 +21,14 @@ a.btn {
     cursor: pointer;
     border-radius: 5px;
     filter: drop-shadow(2px 2px 3px #f47d30);
+}
+
+img { 
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }

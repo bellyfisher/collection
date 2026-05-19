@@ -53,3 +53,37 @@ a.btn {
     margin: 10px;
     filter: drop-shadow(6px 6px 6px #f47d30);
 }
+
+.card-body-defense {
+    background-color: #f47d30;
+    border-radius: 25px;
+    border-color: #00539B;
+    padding: 5px;
+    margin: 10px;
+    color: #00539B;
+}
+.card-text-defense {
+    color: #00539B;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-title-defense {
+    color: #00539B;
+    font-weight: bold;
+    padding: 10px;
+}
+
+button.btn {
+    background-color: #16324F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button.btn:hover {
+background-color: #333333;
+color: white;
+}

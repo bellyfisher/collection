@@ -168,3 +168,62 @@ const players = [
         hiddenDetail: "The 6-foot-4 blueliner, born in Summerside, Prince Edward Island, famously wears No. 53 to honor his late grandfather."
     }
 ];
+
+const retiredPlayers = [
+    {
+        firstName: "Denis",
+        lastName: "Potvin",
+        position: "Defenseman",
+        number: 5,
+        hiddenDetail: "He was the first defenseman in NHL history to win the Hart Trophy as league MVP, which he earned in 1976. He also won the Norris Trophy as the league's best defenseman three times during his career."
+    },
+    {
+        firstName: "Bryan",
+        lastName: "Trottier",
+        position: "Center",
+        number: 19,
+        hiddenDetail: "He was born in Val Marie, Saskatchewan, a small town with a population of just a few hundred people. Despite his humble beginnings, Trottier went on to become one of the greatest players in NHL history."
+    },
+    {
+        firstName: "Clark",
+        lastName: "Gillies",
+        position: "Right Wing",
+        number: 9,
+        hiddenDetail: "Gillies was known for his powerful shot and his ability to play both sides of the ice. He was a key player for the Montreal Canadiens during the 1970s and 1980s."
+    },
+    {
+        firstName: "Mike",
+        lastName: "Bossy",
+        position: "Right Wing",
+        number: 22,
+        hiddenDetail: "Bossy was one of the most prolific goal scorers in NHL history. He scored 50 or more goals in each of his first nine seasons, a feat that has never been matched."
+    },
+    {
+        firstName: "Bobby",
+        lastName: "Nystrom",
+        position: "Right Wing",
+        number: 23,
+        hiddenDetail: "Nystrom is best known for scoring the Stanley Cup-winning goal in overtime of Game 6 against the Vancouver Canucks in 1980, securing the Islanders' first-ever championship."
+    },
+    {
+        firstName: "John",
+        lastName: "Tonelli",
+        position: "Left Wing",
+        number: 27,
+        hiddenDetail: "Tonelli was known for his versatility and leadership. He played a key role in the Islanders' four consecutive Stanley Cup victories from 1980 to 1983 and was named an NHL All-Star three times during his career."
+    },
+    {
+        firstName: "Billy",
+        lastName: "Smith",
+        position: "Goalie",
+        number: 31,
+        hiddenDetail: "Smith was known for his fiery personality and his acrobatic saves. He won the Vezina Trophy as the league's best goalie in 1983 and was named to the NHL All-Star team five times during his career."
+    },
+    {
+        firstName: "Butch",
+        lastName: "Goring",
+        position: "Center",
+        number: 91,
+        hiddenDetail: "Goring was a key player for the Islanders during their dynasty years. He was known for his speed and his ability to score clutch goals, and he won four Stanley Cups with the team."
+    }
+];

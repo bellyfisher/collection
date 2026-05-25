@@ -14,103 +14,73 @@ const players = [
         hiddenDetail: "Before committing to hockey, Lee was a standout high school football star. In 2008, he was named Minnesota's Gatorade Football Player of the Year, throwing for over 2,000 yards and rushing for a staggering 32 touchdowns."
     },
     {
-        firstName: "Aaron",
-        lastName: "McKie",
-        position: "SG",
-        number: 8,
-        age: 29,
-        height: "6'5\"",
-        photo: "https://www.basketball-reference.com/req/202106291/images/players/mckieaa01.jpg",
-        hiddenDetail: "Won the NBA Sixth Man of the Year Award for the 2000-2001 season."
+        firstName: "Matthew",
+        lastName: "Schaefer",
+        position: "Defenseman",
+        number: 48,
+        hiddenDetail: "He passed Hall of Famer Phil Housley for the most points by an 18-year-old defenseman in NHL history and tied Brian Leetch’s single-season record for most goals by a rookie defenseman."
     },
     {
-        firstName: "Eric",
-        lastName: "Snow",
-        position: "PG",
-        number: 20,
-        age: 28,
-        height: "6'3\"",
-        photo: "https://www.basketball-reference.com/req/202106291/images/players/snower01.jpg",
-        hiddenDetail: "Known for his defensive skills and leadership on the court. He was an NBA All-Defensive Second Team selection."
+        firstName: "Ilya",
+        lastName: "Sorokin",
+        position: "Goalie",
+        number: 30,
+        hiddenDetail: "He has a knack for racking up shutouts. He even broke a nearly 50-year-old franchise record for career shutouts with the Islanders and posted a massive 44-save shutout against the Devils."
     },
     {
-        firstName: "George",
-        lastName: "Lynch",
-        position: "SF",
-        number: 9,
-        age: 31,
-        height: "6'8\"",
-        photo: "https://www.basketball-reference.com/req/202106291/images/players/lynchge01.jpg",
-        hiddenDetail: "Known for his defensive prowess and rebounding ability."
-    },
-    {
-        firstName: "Tyrone",
-        lastName: "Hill",
-        position: "PF",
-        number: 54,
-        age: 33,
-        height: "6'9\"",
-        photo: "https://www.basketball-reference.com/req/202106291/images/players/hillty01.jpg",
-        hiddenDetail: "Was a key frontcourt contributor and made an All-Star appearance during his career."
-    },
-    {
-        firstName: "Matt",
-        lastName: "Geiger",
-        position: "C",
-        number: 52,
-        age: 32,
-        height: "7'0\"",
-        photo: "https://www.basketball-reference.com/req/202106291/images/players/geigema01.jpg",
-        hiddenDetail: "Was one of the highest-paid centers in the NBA during his time with the Sixers."
-    },
-    {
-        firstName: "Speedy",
-        lastName: "Claxton",
-        position: "PG",
-        number: 5,
-        age: 23,
-        height: "5'11\"",
-        photo: "imgs/speedy.jpg",
-        hiddenDetail: "Rookie in the 2001-2002 season who provided depth at the point guard position."
-    },
-    {
-        firstName: "Raja",
-        lastName: "Bell",
-        position: "SG",
-        number: 19,
-        age: 25,
-        height: "6'5\"",
-        photo: "https://www.basketball-reference.com/req/202106291/images/players/bellra01.jpg",
-        hiddenDetail: "Known for his defensive skills and three-point shooting."
-    },
-    {
-        firstName: "Derrick",
-        lastName: "Coleman",
-        position: "PF",
+        firstName: "Jean-Gabriel",
+        lastName: "Pageau",
+        position: "Center",
         number: 44,
-        age: 34,
-        height: "6'10\"",
-        photo: "https://www.basketball-reference.com/req/202106291/images/players/colemde01.jpg",
-        hiddenDetail: "Former #1 overall draft pick who provided veteran leadership to the team."
+        hiddenDetail: "In 2017, Pageau became a legend in Ottawa when he scored four goals in a single playoff game against the New York Rangers, including the game-winner in double overtime, leading to a local restaurant in Ottawa temporarily naming a brunch special in his honor."
     },
     {
-        firstName: "Todd",
-        lastName: "MacCulloch",
-        position: "C",
+        firstName: "Simon",
+        lastName: "Holmstrom",
+        position: "Right Wing",
+        number: 92,
+        hiddenDetail: "Before coming to North America, he won a gold medal representing Team Sweden at the 2018 Under-18 World Junior Championships, even scoring a crucial goal in the gold-medal game against Russia."
+    },
+    {
+        firstName: "Anthony",
+        lastName: "Duclair",
+        position: "Left Wing",
         number: 11,
-        age: 26,
-        height: "7'0\"",
-        photo: "https://www.basketball-reference.com/req/202106291/images/players/maccuto01.jpg",
-        hiddenDetail: "Canadian center who was known for his efficient shooting and soft touch around the basket."
+        hiddenDetail: "Known as a journeyman, he has suited up for nearly a third of the league. His extensive list of franchises includes the Rangers, Coyotes, Blackhawks, Blue Jackets, Senators, Panthers, Sharks, Lightning, and Islanders."
     },
     {
-        firstName: "Corie",
-        lastName: "Blount",
-        position: "C",
-        number: 33,
-        age: 32,
-        height: "6'10\"",
-        photo: "imgs/Corie .png",
-        hiddenDetail: "Veteran center who provided defensive depth in the frontcourt."
+        firstName: "Ryan",
+        lastName: "Pulock",
+        position: "Defenseman",
+        number: 6,
+        hiddenDetail: "When he was drafted 15th overall in New Jersey, it was a surreal moment for his family because his father, a lifelong Islanders fan, had actually predicted Ryan would be drafted by New York."
+    },
+    {
+        firstName: "Semyon",
+        lastName: "Varlamov",
+        position: "Goalie",
+        number: 40,
+        hiddenDetail: "During his early years in Washington, he and superstar teammate Alex Ovechkin playfully joked about being 'Russian spies' in humorous locker room interviews."
+    },
+    {
+        firstName: "Adam",
+        lastName: "Pelech",
+        position: "Defenseman",
+        number: 3,
+        hiddenDetail: "Despite his primary role being defense and suppressing opponent chances, his exceptional two-way play earned him his first career NHL All-Star Game selection in 2022."
+    },
+    {
+        firstName: "Scott",
+        lastName: "Mayfield",
+        position: "Defenseman",
+        number: 24,
+        hiddenDetail: "He's known for his grit; it was revealed that Mayfield played through a broken ankle for several months during a grueling playoff push, demonstrating his tough-as-nails reputation."
+    },
+    {
+        firstName: "Ondrej",
+        lastName: "Palat",
+        position: "Left Wing",
+        number: 81,
+        hiddenDetail: "Growing up in Frýdek-Místek, Czechoslovakia, he played in leagues two years above his own age group. Facing bigger, stronger players forced him to learn to be 'smarter' and adapt his quick-thinking playing style at a very young age."
     }
 ];

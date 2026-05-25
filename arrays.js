@@ -82,5 +82,89 @@ const players = [
         position: "Left Wing",
         number: 81,
         hiddenDetail: "Growing up in Frýdek-Místek, Czechoslovakia, he played in leagues two years above his own age group. Facing bigger, stronger players forced him to learn to be 'smarter' and adapt his quick-thinking playing style at a very young age."
+    },
+        {
+        firstName: "Kyle",
+        lastName: "Palmieri",
+        position: "Center",
+        number: 21,
+        hiddenDetail: "When he was traded from the Devils to the New York Islanders in April 2021, he essentially had another 'homecoming'. His parents had remained in the New York/New Jersey area and were overjoyed they could watch him play for Long Island."
+    },
+    {
+        firstName: "Alexander",
+        lastName: "Romanov",
+        position: "Defenseman",
+        number: 28,
+        hiddenDetail: "Romanov was born into a hockey family in Moscow, Russia. His father, Stanislav Romanov, was a pro player in the Russian Superleague, and his maternal grandfather is legendary Soviet coach and player Zinetula Bilyaletdinov."
+    },
+    {
+        firstName: "David",
+        lastName: "Rittich",
+        position: "Goalie",
+        number: 33,
+        hiddenDetail: "Before making his name as a puck-blocker, Rittich was a whistle-blower. Growing up in Czechia, he officiated minor hockey games as a teenager simply as a way to earn spending money."
+    },
+    {
+        firstName: "Casey",
+        lastName: "Cizikas",
+        position: "Center",
+        number: 53,
+        hiddenDetail: "He and teammate Anders Lee were both selected by the Islanders in the same 2009 draft class. Cizikas made his NHL debut against the rival New York Rangers just three days before his 21st birthday."
+    },
+    {
+        firstName: "Marc",
+        lastName: "Gatcomb",
+        position: "Center",
+        number: 16,
+        hiddenDetail: "Before focusing completely on hockey, Gatcomb was a standout baseball player in high school at The Frederick Gunn School in Connecticut."
+    },
+    {
+        firstName: "Emil",
+        lastName: "Heineman",
+        position: "Left Wing",
+        number: 51,
+        hiddenDetail: "The name 'Emil' comes from the Latin word aemulari, meaning 'trying to equal or surpass.' This fits perfectly with his gritty playing style and his history of working his way up through Sweden's ranks."
+    },
+    {
+        firstName: "Kyle",
+        lastName: "MacLean",
+        position: "Center",
+        number: 32,
+        hiddenDetail: "Kyle and his dad, John, made NHL history by becoming the first father-son duo to each score in their Stanley Cup Playoff debuts."
+    },
+    {
+        firstName: "Brayden",
+        lastName: "Schenn",
+        position: "Center",
+        number: 10,
+        hiddenDetail: "In addition to his NHL success, he has represented Team Canada multiple times, winning gold medals at the 2008 Under-18 World Championships, the 2008 Ivan Hlinka Memorial Cup, and the 2015 IIHF World Championship."
+    },
+    {
+        firstName: "Adam",
+        lastName: "Boqvist",
+        position: "Defenseman",
+        number: 34,
+        hiddenDetail: "Hockey runs in the family. His older brother, Jesper Boqvist, is also an NHL forward. The two brothers even shared an apartment together when they were trying to break into the NHL and played as teammates for the Florida Panthers during the 2024–25 season."
+    },
+    {
+        firstName: "Tony",
+        lastName: "DeAngelo",
+        position: "Defenseman",
+        number: 77,
+        hiddenDetail: "He is incredibly close to his grandparents. His grandfather Lou was instrumental in his early hockey development, driving him to endless practices and games throughout southern New Jersey."
+    },
+    {
+        firstName: "Carson",
+        lastName: "Soucy",
+        position: "Defenseman",
+        number: 4,
+        hiddenDetail: "Just before being drafted by the NHL, Soucy played outfield for the Canadian Junior Men's National Softball Team, helping them finish fourth at the 2012 ISF World Championships in Argentina."
+    },
+    {
+        firstName: "Noah",
+        lastName: "Dobson",
+        position: "Defenseman",
+        number: 39,
+        hiddenDetail: "The 6-foot-4 blueliner, born in Summerside, Prince Edward Island, famously wears No. 53 to honor his late grandfather."
     }
 ];

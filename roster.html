@@ -1,445 +1,370 @@
 <!doctype html>
 <html lang="en" data-bs-theme="light">
-    <head>
-        <title>New York Islanders Roster</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <title>New York Islanders Roster</title>
 
-        <!-- Bootstrap CSS v5.3.8 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous"
-        />
-            <link rel="stylesheet" href="roster.css" />
-    </head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <body>
-        <header>
-<nav class="navbar">
-  <div class="container">
-    <a class="navbar-brand" href="homepage.html">
-      <img src="logo.png" alt="logo" width="50" height="50">
-    </a>
-  </div>
-</nav>
-        </header>
-        <main>
-<div class="form-floating">
-  <select class="form-select" id="filter" aria-label="Floating label select example">
-    <option selected>Sort By...</option>
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="roster.css" />
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html">
+                <img src="logo.png" alt="logo" width="50" height="50">
+            </a>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+
+    <!-- Filter -->
+    <div class="form-floating mb-4">
+<select class="form-select" id="filter">
+    <option value="0" selected>Show All</option>
     <option value="1">Forwards</option>
     <option value="2">Defensemen</option>
     <option value="3">Goalies</option>
-  </select>
-</div>
-            <div class="row">
-                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Mathew Barzal</h5>
-                        <img src="barzy.webp" class="card-img-top" alt="Mathew Barzal" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">13</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
+</select>
+        <label for="filter">Sort Players</label>
+    </div>
 
-                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Captain Anders Lee</h5>
-                        <img src="lee.png" class="card-img-top" alt="Anders Lee" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">27</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
+    <!-- ACTIVE ROSTER -->
+    <div class="row g-4">
 
-                                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Matthew Schaefer</h5>
-                        <img src="schaefer.png" class="card-img-top" alt="Matthew Schaefer" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">48</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body-goalie">
-                        <h5 class="card-title">Ilya Sorokin</h5>
-                        <img src="soroki.png" class="card-img-top" alt="Ilya Sorokin" />
-                        <p class="card-text">Goalie</p>
-                        <p class="card-text">30</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
+        <!-- Mathew Barzal -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mathew Barzal</h5>
+                    <img src="barzy.webp" class="card-img-top" alt="Mathew Barzal">
+                    <p class="card-text">Center</p>
+                    <p class="card-text">13</p>
+                    <button class="btn">Learn More</button>
                 </div>
             </div>
+        </div>
 
-                        <div class="row">
-                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Jean-Gabriel Pageau</h5>
-                        <img src="jgpag.png" class="card-img-top" alt="Jean-Gabriel Pageau" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">44</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Simon Holmstrom</h5>
-                        <img src="holm.png" class="card-img-top" alt="Simon Holmstrom" />
-                        <p class="card-text">Right Wing</p>
-                        <p class="card-text">92</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Anthony Duclair</h5>
-                        <img src="duclair.png" class="card-img-top" alt="Anthony Duclair" />
-                        <p class="card-text">Left Wing</p>
-                        <p class="card-text">11</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Ryan Pulock</h5>
-                        <img src="pulock.png" class="card-img-top" alt="Ryan Pulock" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">6</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
+        <!-- Anders Lee -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Captain Anders Lee</h5>
+                    <img src="lee.png" class="card-img-top" alt="Anders Lee">
+                    <p class="card-text">Center</p>
+                    <p class="card-text">27</p>
+                    <button class="btn">Learn More</button>
                 </div>
             </div>
+        </div>
 
-                        <div class="row">
-                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body-goalie">
-                        <h5 class="card-title">Semyon Varlamov</h5>
-                        <img src="varly.png" class="card-img-top" alt="Semyon Varlamov" />
-                        <p class="card-text">Goalie</p>
-                        <p class="card-text">40</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Adam Pelech</h5>
-                        <img src="pelech.png" class="card-img-top" alt="Adam Pelech" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">3</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col-md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Scott Mayfield</h5>
-                        <img src="mayfield.png" class="card-img-top" alt="Scott Mayfield" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">24</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-                    </div>
-
-                                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Ondrej Palat</h5>
-                        <img src="palat.png" class="card-img-top" alt="Ondrej Palat" />
-                        <p class="card-text">Left Wing</p>
-                        <p class="card-text">81</p>
-                        <button type="button" class="btn">Learn More</button>
-                    
-                    </div>
-                    </div>
-                </div>
-</div>
-<div class="row">
-                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Kyle Palmieri</h5>
-                        <img src="palmieri.png" class="card-img-top" alt="Kyle Palmieri" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">21</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Alexander Romanov</h5>
-                        <img src="romanov.png" class="card-img-top" alt="Alexander Romanov" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">28</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body-goalie">
-                        <h5 class="card-title">David Rittich</h5>
-                        <img src="rittich.png" class="card-img-top" alt="David Rittich" />
-                        <p class="card-text">Goalie</p>
-                        <p class="card-text">33</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Casey Cizikas</h5>
-                        <img src="cizikas.png" class="card-img-top" alt="Casey Cizikas" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">53</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
+        <!-- Matthew Schaefer -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body-defense">
+                    <h5 class="card-title-defense">Matthew Schaefer</h5>
+                    <img src="schaefer.png" class="card-img-top" alt="Matthew Schaefer">
+                    <p class="card-text-defense">Defenseman</p>
+                    <p class="card-text-defense">48</p>
+                    <button class="btn">Learn More</button>
                 </div>
             </div>
-                        <div class="row">
-                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Marc Gatcomb</h5>
-                        <img src="gatcomb.png" class="card-img-top" alt="Marc Gatcomb" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">16</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                </div>
+        </div>
 
-                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Emil Heineman</h5>
-                        <img src="heineman.png" class="card-img-top" alt="Emil Heineman" />
-                        <p class="card-text">Left Wing</p>
-                        <p class="card-text">51</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Kyle MacLean</h5>
-                        <img src="maclean.png" class="card-img-top" alt="Kyle MacLean" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">32</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                </div>
-
-                                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Brayden Schenn</h5>
-                        <img src="schenn.png" class="card-img-top" alt="Brayden Schenn" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">10</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
+        <!-- Ilya Sorokin -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body-goalie">
+                    <h5 class="card-title">Ilya Sorokin</h5>
+                    <img src="soroki.png" class="card-img-top" alt="Ilya Sorokin">
+                    <p class="card-text">Goalie</p>
+                    <p class="card-text">30</p>
+                    <button class="btn">Learn More</button>
                 </div>
             </div>
-                        <div class="row">
-                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Adam Boqvist</h5>
-                        <img src="boq.webp" class="card-img-top" alt="Adam Boqvist" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">34</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
+        </div>
 
-                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Tony DeAngelo</h5>
-                        <img src="deangelo.png" class="card-img-top" alt="Tony DeAngelo" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">77</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Carson Soucy</h5>
-                        <img src="soucy.jpg" class="card-img-top" alt="Carson Soucy" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">4</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col md-4 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Noah Dobson</h5>
-                        <img src="dobson.jpg" class="card-img-top" alt="Noah Dobson" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">39</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
+        <!-- Jean-Gabriel Pageau -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Jean-Gabriel Pageau</h5>
+                    <img src="jgpag.png" class="card-img-top" alt="Jean-Gabriel Pageau">
+                    <p class="card-text">Center</p>
+                    <p class="card-text">44</p>
+                    <button class="btn">Learn More</button>
                 </div>
             </div>
+        </div>
 
-<h1 class="text-center">Hall-Of-Famers/Retired Player Numbers</h1>
-
-                                    <div class="row">
-                <div class="col md-8 text-center">
-                <div class="card">
-                    <div class="card-body-defense">
-                        <h5 class="card-title-defense">Denis Potvin</h5>
-                        <img src="potvin.webp" class="card-img-top" alt="Denis Potvin" />
-                        <p class="card-text-defense">Defenseman</p>
-                        <p class="card-text-defense">5</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col md-8 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Clark Gillies</h5>
-                        <img src="gillies.jpg" class="card-img-top" alt="Clark Gillies" />
-                        <p class="card-text">Left Wing</p>
-                        <p class="card-text">9</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col md-8 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Bryan Trottier</h5>
-                        <img src="trottier.jpg" class="card-img-top" alt="Bryan Trottier" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">19</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                <div class="col md-8 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Mike Bossy</h5>
-                        <img src="bossy.jpg" class="card-img-top" alt="Mike Bossy" />
-                        <p class="card-text">Right Wing</p>
-                        <p class="card-text">22</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                                <div class="col md-8 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Bobby Nystrom</h5>
-                        <img src="nystrom.webp" class="card-img-top" alt="Bobby Nystrom" />
-                        <p class="card-text">Right Wing</p>
-                        <p class="card-text">23</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                                <div class="col md-8 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">John Tonelli</h5>
-                        <img src="tonelli.jpg" class="card-img-top" alt="John Tonelli" />
-                        <p class="card-text">Left Wing</p>
-                        <p class="card-text">27</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                                <div class="col md-8 text-center">
-                <div class="card">
-                    <div class="card-body-goalie">
-                        <h5 class="card-title">Billy Smith</h5>
-                        <img src="smith.jpg" class="card-img-top" alt="Billy Smith" />
-                        <p class="card-text">Goalie</p>
-                        <p class="card-text">31</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
-                </div>
-
-                                                <div class="col md-8 text-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Butch Goring</h5>
-                        <img src="goring.webp" class="card-img-top" alt="Butch Goring" />
-                        <p class="card-text">Center</p>
-                        <p class="card-text">91</p>
-                        <button type="button" class="btn">Learn More</button>
-                    </div>
-                    </div>
+        <!-- Simon Holmstrom -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Simon Holmstrom</h5>
+                    <img src="holm.png" class="card-img-top" alt="Simon Holmstrom">
+                    <p class="card-text">Right Wing</p>
+                    <p class="card-text">92</p>
+                    <button class="btn">Learn More</button>
                 </div>
             </div>
-        </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+        </div>
+
+        <!-- Anthony Duclair -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Anthony Duclair</h5>
+                    <img src="duclair.png" class="card-img-top" alt="Anthony Duclair">
+                    <p class="card-text">Left Wing</p>
+                    <p class="card-text">11</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ryan Pulock -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body-defense">
+                    <h5 class="card-title-defense">Ryan Pulock</h5>
+                    <img src="pulock.png" class="card-img-top" alt="Ryan Pulock">
+                    <p class="card-text-defense">Defenseman</p>
+                    <p class="card-text-defense">6</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Semyon Varlamov -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body-goalie">
+                    <h5 class="card-title">Semyon Varlamov</h5>
+                    <img src="varly.png" class="card-img-top" alt="Semyon Varlamov">
+                    <p class="card-text">Goalie</p>
+                    <p class="card-text">40</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Adam Pelech -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body-defense">
+                    <h5 class="card-title-defense">Adam Pelech</h5>
+                    <img src="pelech.png" class="card-img-top" alt="Adam Pelech">
+                    <p class="card-text-defense">Defenseman</p>
+                    <p class="card-text-defense">3</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scott Mayfield -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body-defense">
+                    <h5 class="card-title-defense">Scott Mayfield</h5>
+                    <img src="mayfield.png" class="card-img-top" alt="Scott Mayfield">
+                    <p class="card-text-defense">Defenseman</p>
+                    <p class="card-text-defense">24</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ondrej Palat -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Ondrej Palat</h5>
+                    <img src="palat.png" class="card-img-top" alt="Ondrej Palat">
+                    <p class="card-text">Left Wing</p>
+                    <p class="card-text">81</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kyle Palmieri -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Kyle Palmieri</h5>
+                    <img src="palmieri.png" class="card-img-top" alt="Kyle Palmieri">
+                    <p class="card-text">Center</p>
+                    <p class="card-text">21</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alexander Romanov -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body-defense">
+                    <h5 class="card-title-defense">Alexander Romanov</h5>
+                    <img src="romanov.png" class="card-img-top" alt="Alexander Romanov">
+                    <p class="card-text-defense">Defenseman</p>
+                    <p class="card-text-defense">28</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- David Rittich -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body-goalie">
+                    <h5 class="card-title">David Rittich</h5>
+                    <img src="rittich.png" class="card-img-top" alt="David Rittich">
+                    <p class="card-text">Goalie</p>
+                    <p class="card-text">33</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Casey Cizikas -->
+        <div class="col-md-4">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Casey Cizikas</h5>
+                    <img src="cizikas.png" class="card-img-top" alt="Casey Cizikas">
+                    <p class="card-text">Center</p>
+                    <p class="card-text">53</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- HALL OF FAME -->
+    <h1 class="text-center my-5">Hall-Of-Famers / Retired Player Numbers</h1>
+
+    <div class="row g-4">
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body-defense">
+                    <h5 class="card-title-defense">Denis Potvin</h5>
+                    <img src="potvin.webp" class="card-img-top" alt="Denis Potvin">
+                    <p class="card-text-defense">Defenseman</p>
+                    <p class="card-text-defense">5</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Clark Gillies</h5>
+                    <img src="gillies.jpg" class="card-img-top" alt="Clark Gillies">
+                    <p class="card-text">Left Wing</p>
+                    <p class="card-text">9</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Bryan Trottier</h5>
+                    <img src="trottier.jpg" class="card-img-top" alt="Bryan Trottier">
+                    <p class="card-text">Center</p>
+                    <p class="card-text">19</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Mike Bossy</h5>
+                    <img src="bossy.jpg" class="card-img-top" alt="Mike Bossy">
+                    <p class="card-text">Right Wing</p>
+                    <p class="card-text">22</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Bobby Nystrom</h5>
+                    <img src="nystrom.webp" class="card-img-top" alt="Bobby Nystrom">
+                    <p class="card-text">Right Wing</p>
+                    <p class="card-text">23</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">John Tonelli</h5>
+                    <img src="tonelli.jpg" class="card-img-top" alt="John Tonelli">
+                    <p class="card-text">Left Wing</p>
+                    <p class="card-text">27</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body-goalie">
+                    <h5 class="card-title">Billy Smith</h5>
+                    <img src="smith.jpg" class="card-img-top" alt="Billy Smith">
+                    <p class="card-text">Goalie</p>
+                    <p class="card-text">31</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Butch Goring</h5>
+                    <img src="goring.webp" class="card-img-top" alt="Butch Goring">
+                    <p class="card-text">Center</p>
+                    <p class="card-text">91</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+</footer>
+
+<!-- Bootstrap JS -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+<script src="roster.js"></script>
+</body>
 </html>
